@@ -23,6 +23,6 @@ public class Main {
         }
         OrderService orderService = new OrderServiceImpl();
         orderService.completeOrder(user.getUserId());
-        logger.info("Program finished successfully");
+        logger.info("Application execution completed successfully.");
     }
 }
